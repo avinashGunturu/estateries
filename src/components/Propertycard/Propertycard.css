@@ -1,0 +1,129 @@
+.card-container{
+    width: 350px;
+    margin: 15px 10px;
+    border-radius: 11px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+    position: relative;
+
+}
+.card-container .popular {
+    position:absolute;
+    top: 20px;
+    background-color: blueviolet;
+    padding: 15px 20px;
+    color: white;
+    font-weight: bold;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 10px;
+    letter-spacing: 1px;
+}
+.card-container .popular:hover {
+    padding: 15px 30px;
+    transition: left 1s ease-in-out;
+
+}
+.card-container:hover {
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+    transform: scale(1.035);
+    transition: transform .3s ease-in-out;
+}
+.card-container .content-container{
+    padding: 12px;
+}
+.image-container {
+    width: inherit;
+}
+.image-container img {
+    width: inherit;
+    height: 240px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+.price-fav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 32px;
+}
+.price-fav-container p{
+    color: rgb(202, 188, 188);
+}
+.price-fav-container .price {
+    font-size: 24px;
+    font-weight: 800;
+    color: blueviolet;
+}
+.price-fav-container .fav-container {
+   border:0.5px solid rgb(154, 151, 151);
+   padding: 8px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.price-fav-container .fav-container .fav {
+    color: blueviolet;
+    font-size: 20px;
+}
+.price-fav-container .fav-container .cfav {
+
+    color: rgb(255, 117, 117);
+    font-size: 20px;
+    transition: color 2s ease-in-out;
+}
+.property-name-address {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 32px;
+    margin-bottom: 10px;
+}
+.property-name-address .name {
+    padding: 5px 0px ;
+    text-transform: capitalize;
+}  
+.property-name-address .name .propertyType {
+    font-size: 12px;
+    color: gray;
+}
+.property-name-address .address {
+    color: rgb(160, 160, 160);
+    /* text-transform: uppercase; */
+    font-size: 13px;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+.bed-bath-area-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 16px;
+    font-size: 13px;
+    margin:10px 0px
+}
+.bed-bath-area-container .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bed-bath-area-container .container .bed {
+    color: blueviolet;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.bed-bath-area-container .container .bath {
+    color: blueviolet;
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.bed-bath-area-container .container .area {
+    color: blueviolet;
+    font-size: 18px;
+    margin-right: 5px;
+}
+.multiplication-symbol {
+    font-size: 10px;
+}
+

@@ -1,0 +1,71 @@
+.login-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 89vh;
+    box-sizing: border-box;
+    background: hsla(302, 82%, 76%, 1);
+   
+   background: linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+   
+   background: -moz-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+   
+   background: -webkit-linear-gradient(90deg, hsla(302, 82%, 76%, 1) 0%, hsla(258, 40%, 68%, 1) 100%);
+   
+   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F492F0", endColorstr="#A18DCE", GradientType=1 );
+   }
+   .login-container .container{
+       box-shadow: 10px 15px 15px rgba(0,0,0,0.3);
+       border-top:2px solid blueviolet;
+       border-left: 2px solid blueviolet;
+       border-radius: 10px;
+     width: 400px;
+     padding: 64px;
+     background-color: whitesmoke;
+   }
+   .login-container .container h2{
+       margin-bottom: 32px;
+       text-align: left;
+       color: blueviolet;
+   }
+   .input-container {
+       display: flex;
+       flex-direction: column;
+   }
+   .input-container input {
+       padding: 10px 16px;
+       width: 100%;
+       margin:16px auto;
+       border: 0;
+       border-bottom: 1px solid blueviolet;
+   }
+   
+   .input-container input:focus {
+       outline: none;
+   }
+   
+   .login-container .container p{
+       color: rgb(167, 167, 172);
+       margin: 10px auto;
+       padding: 16px 10px;
+       text-align: left;
+   }
+   .login-container .container p a{
+    margin-left: 10px;
+   }
+   
+   .login-container .container button {
+       border: 0;
+       padding: 10px 36px;
+       border-radius: 10px;
+       margin-top: 16px;
+       float: right;
+       background-color: blueviolet;
+       color: white;
+   }
+   .login-container .container button:hover {
+       background-color: white;
+       border: 1px solid blueviolet;
+       color: blueviolet;
+       cursor: pointer;
+   }

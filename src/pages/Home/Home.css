@@ -1,0 +1,49 @@
+img {
+    width: 700px;
+}
+
+.hero-section {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-between;
+height: 80vh;
+padding: 128px;
+}
+
+.hero-section .container {
+    flex: 1;
+}
+.hero-section .content {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+.hero-section .content h1 {
+    font-size: 64px;
+    color: blueviolet;
+}
+.Rentit {
+    padding: 16px 32px;
+    border: 0;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    background-color:blueviolet;
+    width: 200px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.Rentit:hover{
+ background-color: rgb(118, 31, 199);
+}
+
+
+@media only screen and (max-width: 600px) {
+    .hero-section {
+        flex-direction: column;
+    }
+    img {
+        width: 100%;
+    }
+  }
